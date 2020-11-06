@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>A Simple Web Calculator</h2>
+
+<p>You can choose an operation (add, subtract, or multiply) and enter two numbers in the input fields, then click on Submit.</p>
+
+<form action="/cgi-bin/calc" target="_blank">
+  <label for="operation">Operation:</label>
+  <select id="op" name="op">
+	  <option value=0>Add</option>
+	  <option value=1>Subtract</option>
+	  <option value=2>Multiply</option>
+  </select>
+ &nbsp &nbsp &nbsp
+  <input type="number" id="operand1" name="operand1" value=0>
+  <input type="number" id="operand2" name="operand2" value=0>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

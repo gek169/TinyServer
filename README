@@ -1,0 +1,8 @@
+TinyServer with Calculator program written in C
+
+This program is written to-spec.
+Works only with integers.
+Non-integer entries can break the input.
+
+No input sanitation or security measures are taken.
+~David MHS Webster.
